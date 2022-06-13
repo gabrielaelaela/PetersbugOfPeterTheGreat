@@ -21,12 +21,12 @@ h1 {
 }
 h1 span {
     white-space: nowrap;
-    background-color: rgba(106, 146, 149, 0.5);
+    background-color: rgba(106, 146, 149, 0.85);
 }
 
 .heading {
-    height: fit-content;
-    background: url("http://bibliobel.ru/media/k2/items/cache/1148c0c947ba828ea344776aa0a78f01_XL.jpg") center no-repeat;
+    height: 100%;
+    background: url("https://sculptprivet.ru/wp-content/uploads/2018/09/gromkamen6.jpg") bottom no-repeat;
 }
 
 .flex-parent {

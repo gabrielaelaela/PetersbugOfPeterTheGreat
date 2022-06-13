@@ -57,8 +57,3 @@ let input8 = document.getElementById('input8');
 input8.onclick = function() {
     click(8);
 }
-
-let input9 = document.getElementById('input9');
-input9.onclick = function() {
-    click(9);
-}

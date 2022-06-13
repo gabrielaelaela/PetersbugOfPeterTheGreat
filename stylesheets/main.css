@@ -208,3 +208,15 @@ h1 span {
         min-height: 950px;
     }
 }
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.flexbox-elem {
+    width: 40%;
+    display: block;
+}

@@ -222,6 +222,26 @@ h1 span {
     transform: translateX(-50%);
 }
 
+@keyframes DownAppear{
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+        transform: translateX(-50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+        transform: translateX(-50%);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference){
+    .description img{
+        animation-name: DownAppear;
+        animation-duration: 2s;
+    }
+}
+
 .image-description {
     font-size: 60%;
     text-align: center;

@@ -25,7 +25,7 @@ h1 span {
 
 .heading {
     height: fit-content;
-    max-height: 170px;
+    max-height: 130px;
     background: linear-gradient(rgba(223, 201, 162, 0.25), rgba(223, 201, 162, 0.25)), url("../images/spb.jpg") center no-repeat;
 }
 

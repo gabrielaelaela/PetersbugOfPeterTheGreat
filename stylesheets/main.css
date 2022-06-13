@@ -6,7 +6,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-weight: 100;
     color: #424949;
-    background-color: #ECF0F1;
+    background-color: rgba(223, 201, 162, 0.6);
     padding: 0 25px;
     display: flex;
     flex-direction: column;
@@ -17,16 +17,15 @@ h1 {
     text-align: center;
     height: 38px;
     margin: 60px 0;
-    color: white;
+    color: #2C3E50;
 }
 h1 span {
     white-space: nowrap;
-    background-color: rgba(106, 146, 149, 0.85);
 }
 
 .heading {
     height: 100%;
-    background: url("https://sculptprivet.ru/wp-content/uploads/2018/09/gromkamen6.jpg") bottom no-repeat;
+    background: linear-gradient(rgba(223, 201, 162, 0.25), rgba(223, 201, 162, 0.25)), url("../images/spb.jpg") center no-repeat;
 }
 
 .flex-parent {

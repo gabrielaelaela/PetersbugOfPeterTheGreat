@@ -4,7 +4,7 @@ html, body {
 
 body {
     font-family: "Quicksand", sans-serif;
-    font-weight: 500;
+    font-weight: 100;
     color: #424949;
     background-color: #ECF0F1;
     padding: 0 25px;
@@ -17,9 +17,16 @@ h1 {
     text-align: center;
     height: 38px;
     margin: 60px 0;
+    color: white;
 }
 h1 span {
     white-space: nowrap;
+    background-color: rgba(106, 146, 149, 0.5);
+}
+
+.heading {
+    height: fit-content;
+    background: url("http://bibliobel.ru/media/k2/items/cache/1148c0c947ba828ea344776aa0a78f01_XL.jpg") center no-repeat;
 }
 
 .flex-parent {
@@ -220,6 +227,8 @@ h1 span {
     width: 60%;
     margin-left: 50%;
     transform: translateX(-50%);
+    border-radius: 10px;
+    border: #2C3E50 dotted 2px;
 }
 
 @keyframes DownAppear{
@@ -243,8 +252,13 @@ h1 span {
 }
 
 .image-description {
+    font-style: italic;
     font-size: 60%;
     text-align: center;
     margin-top: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.image-box {
     margin-bottom: 5%;
 }
